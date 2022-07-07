@@ -62,7 +62,7 @@ public class Employee implements Comparable<Employee>{
 
         @Override
         public int compare(Employee o1, Employee o2) {
-            return o1.salary - o2.salary; // salary is also positive integer
+            return o1.salary - o2.salary; 
         }
 
     };
